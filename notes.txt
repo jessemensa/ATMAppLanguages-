@@ -1,0 +1,55 @@
+This is implementing an ATM application in 
+Java, Golang, Python, Dart & Swift 
+
+SOME NOTES IMPLEMENTATIONS 
+
+WHAT CLASSES WILL BE CONSIDERED ?? 
+
+ATM 
+- userAuthenticated: Boolean = false 
+
+BalanceInquiry 
+-accountNumber: Integer 
++execute() 
+
+Withdrawal 
+-accountNumber: Integr 
+-amount: Double 
++execute() 
+
+Deposit 
+-accountNumber: Integer 
+-amount: Double 
++execute() 
+
+BankDatabase 
++authenticateuser(): Boolean 
++getAvailableBalance(): Double 
++getTotalBalance(): Double 
++credit() 
++debit() 
+
+Account 
+-accountNumber: Integer 
+-pin: Integer 
+-availableBalance: Double 
+-totalBalance: Double 
++validatePIN(): Boolean 
++getAvailableBalance: Double 
++getTotalBalance: Double 
++credit() 
++debit() 
+
+Screen 
++displayMessage() 
+
+Keypad 
++getInput(): Integer 
+
+CashDispenser 
+-count: Integer = 500 
++dispenseCash() 
++isSufficientCashAvailable(): Boolean 
+
+DepositSlot 
++isEnvelopeReceived(): Boolean 
